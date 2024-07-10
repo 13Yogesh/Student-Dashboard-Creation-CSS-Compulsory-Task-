@@ -1,0 +1,274 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex; /* Make the body a flex container */
+    min-height: 100vh; /* Ensure the body takes at least the height of the viewport */
+}
+
+.container {
+max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #2a73cc;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+.sidebar nav {
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 250px; /* Adjust this to match sidebar width */
+    padding: 20px;
+    width: calc(100% - 250px); /* Adjust content width based on sidebar width */
+}
+
+.skills {
+
+    text-align:left;
+}
+
+.dashpic
+{
+    border-radius:50%;
+    margin-left: 60px;
+    
+}
+.dashhead
+{
+    margin-bottom: 60px;
+    margin-left: 17px;
+}
+
+.usersettings
+{
+    align-items:right;
+    text-align: right;
+    margin-top: -40px;
+
+}
+
+.image1
+{
+    margin-top: 130px;
+    align-items: center;
+    margin-left:180px ;
+    margin-right: 0px;
+    
+}
+.image2{
+    border-radius:15px;
+}
+
+.nav-links
+{
+   text-decoration: none;
+   margin-top:-250px;
+   margin-left: 10px;
+   color:black;
+   margin-bottom: 0px;
+    
+}
+.nav-links:hover  a
+{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.course {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 100px;
+}
+
+.course h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+.course p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn {
+    margin-left:45px;
+    text-align: center;
+    background-color: #ef6007fc;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #1c5aa8;
+}
+
+.html,.world,.graphics,.reactjs
+{
+    text-align: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align:bottom;
+    padding: px 0;
+}
+
+
+
+
+.course-list1 {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: -80px;
+    margin-left: 35px;
+   
+   
+    
+}
+
+.course1 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius:10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-left:0px;
+    margin-top: 100px;
+    width:250px;
+    
+}
+
+.course1 h3 {
+    
+    margin-top:-200px;
+}
+
+
+
+.course1 p {
+    margin-bottom:60px;
+    text-align: center;
+    font-size:15px;
+    margin-left: -110px;
+}
+
+.btn1 {
+    margin-left:-10px;
+    text-align: center;
+    background-color: #ef6007fc;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 35px;
+   
+}
+
+.btn1:hover {
+    background-color: #1c5aa8;
+}
+
+.html2
+{
+   margin-left:120px; 
+   font-size:100px;
+   margin-bottom: 35px;
+   
+   
+}
+.world2
+{
+
+font-size: 100px;
+margin-left: 120px;
+margin-bottom: 35px;
+
+}
+.graphics2
+{
+font-size: 100px;
+margin-left: 120px;
+margin-bottom: 35px;
+
+
+}
