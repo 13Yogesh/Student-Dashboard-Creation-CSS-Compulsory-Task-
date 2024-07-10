@@ -94,6 +94,7 @@ header h1 {
     align-items:right;
     text-align: right;
     margin-top: -40px;
+    cursor: pointer;
 
 }
 
